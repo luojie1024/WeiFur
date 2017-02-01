@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/top_bar_bg"
+        android:gravity="clip_vertical" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/classroom_back_but_defaults" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/classroom_search_button" />
+
+        <LinearLayout
+            android:id="@+id/spinnerid"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/iv_search"
+            android:layout_toRightOf="@id/iv_back"
+            android:background="@mipmap/classroom_title_bg" >
+
+            <TextView
+                android:id="@+id/text"
+                android:text="教学楼"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingLeft="30dp"
+                android:textColor="@color/text_ture_color"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/arrowbut"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:src="@mipmap/classroom_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/top_bar_back_line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/home_line" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginTop="@dimen/abc_action_bar_default_padding_material"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="教室"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginLeft="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginRight="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginTop="@dimen/abc_action_bar_default_padding_material"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="08:00"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginLeft="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginRight="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginTop="@dimen/abc_action_bar_default_padding_material"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="10:00"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginLeft="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginRight="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginTop="@dimen/abc_action_bar_default_padding_material"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="14:30"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginLeft="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginRight="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginTop="@dimen/abc_action_bar_default_padding_material"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="16:20"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginLeft="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginRight="@dimen/abc_action_bar_default_padding_material"
+            android:layout_marginTop="@dimen/abc_action_bar_default_padding_material"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="19:00"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lv_classroom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>
