@@ -1,7 +1,11 @@
 # WeiFur
 简介：  
 ------
-“微芙蓉”是一款湖南文理学院芙蓉学院专属的校园查询APP，用户无需注册，只需输入学号、教务系统密码，就可以查询自己的成绩。还实现了空教室查询功能，课表查询功能，用户无需设置，程序会根据当前系统日期判断当前周 星期几，自动查询课表和当日空教室。  
+“微芙蓉”是本人大学期间自学Android开发的第一个项目，是一款湖南文理学院芙蓉学院的校园查询APP，用户无需注册，只需输入学号、教务系统密码，就可以查询自己的成绩。还实现了空教室查询功能，课表查询功能，用户无需设置，程序会根据当前系统日期判断当前周 星期几，自动查询课表和当日空教室。  
+摘要：
+------
+基于Android平台，Android Studio开发，使用HttpWatch进行数据包抓取、获取Cookies的模拟登陆，实现了教务系统数据的抓取、Jsoup数据解析、SQLite数据库等技术  
+  
 功能介绍：
 ------
 【在线登陆功能】  
@@ -14,5 +18,49 @@
 【空教室查询】  
 无需设置，自动判断日期，显示当天空教室信息。  
 【成绩查询】  
-仅可以在线登陆下使用，根据输入学号、教务系统密码，即可学年、学期查询自己的成绩。
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E4%B8%BB%E7%95%8C%E9%9D%A2.png?raw=true)  
+仅可以在线登陆下使用，根据输入学号、教务系统密码，即可学年、学期查询自己的成绩。  
+
+登入界面
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E7%99%BB%E5%85%A5%E7%95%8C%E9%9D%A2.png?raw=true)  
+
+
+主界面
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E4%B8%BB%E7%95%8C%E9%9D%A2.png?raw=true)  
+
+
+空教室查询
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E7%A9%BA%E6%95%99%E5%AE%A4.png?raw=true)  
+
+课表查询
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2.png?raw=true)  
+
+
+成绩查询
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.png?raw=true)  
+
+功能介绍1
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/001.png?raw=true)  
+
+
+功能介绍2
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/002.png?raw=true)  
+
+
+功能介绍3
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/003.png?raw=true)  
+
+功能介绍4
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/004.png?raw=true)  
+
+功能介绍5
+=====
+![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/0101.png?raw=true)  
