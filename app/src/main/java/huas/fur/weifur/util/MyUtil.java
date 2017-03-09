@@ -41,9 +41,6 @@ public class MyUtil {
                               case 6:
                                         week = String.valueOf((138 + day) / 7 + 1);
                                         break;
-                              case 7:
-                                        week = String.valueOf((138 + day) / 7 + 1);
-                                        break;
                               case 9:
                                         //周末有BUG ,周末为下周的第一天
                                         week = String.valueOf(day-5 / 7 + 1);
