@@ -25,6 +25,22 @@ public class MyUtil {
                     way = mWay + "";
                     //计算学期周
                     switch (month) {
+                              case 2:
+                                        //周末有BUG ,周末为下周的第一天
+                                        week = String.valueOf(day-25 / 7 + 1);
+                                        break;
+                              case 3:
+                                        week = String.valueOf((46 + day) / 7 + 1);
+                                        break;
+                              case 4:
+                                        week = String.valueOf((77 + day) / 7 + 1);
+                                        break;
+                              case 5:
+                                        week = String.valueOf((107 + day) / 7 + 1);
+                                        break;
+                              case 6:
+                                        week = String.valueOf((138 + day) / 7 + 1);
+                                        break;
                               case 9:
                                         //周末有BUG ,周末为下周的第一天
                                         week = String.valueOf(day-5 / 7 + 1);
