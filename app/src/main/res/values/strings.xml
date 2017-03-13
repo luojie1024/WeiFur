@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">微芙蓉</string>
     <string-array name="sel_xn">
-        <item>2012</item>
-        <item>2013</item>
         <item>2014</item>
         <item>2015</item>
         <item>2016</item>

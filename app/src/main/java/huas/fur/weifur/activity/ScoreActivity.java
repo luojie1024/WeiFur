@@ -66,7 +66,7 @@ public class ScoreActivity extends Activity {
 
                               @Override
                               public void onNothingSelected(AdapterView<?> parent) {
-                                        s_xn = "2013";
+                                        s_xn = "2014";
                               }
                     });
                     //设置学期Spinner的监听事件 设置选择的值
