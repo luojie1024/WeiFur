@@ -8,8 +8,8 @@ android {
         applicationId "huas.fur.weifur"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 9
-        versionName "1.9"
+        versionCode 10
+        versionName "1.9.1"
         multiDexEnabled true
     }
     buildTypes {

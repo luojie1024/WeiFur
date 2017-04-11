@@ -216,8 +216,10 @@ public class MainActivity extends Activity {
                     select_about.setOnClickIntent(new MyImageView.OnViewClickListener() {
                               @Override
                               public void onViewClick(MyImageView view) {
-                                        //转跳到关于页面
-                                        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+//                                        //转跳到关于页面
+//                                        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+//                                        startActivity(intent);
+                                        Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
                                         startActivity(intent);
                               }
                     });
