@@ -86,6 +86,7 @@ public class WeatherActivity extends Activity {
 
 			 @Override
 			 public void onNothingSelected(AdapterView<?> parent) {
+				 System.out.println(2);
 			 }
 		 });
 
