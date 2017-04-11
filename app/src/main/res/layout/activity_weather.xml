@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<Spinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner"
+		/>
+
+	<TextView  android:id="@+id/tab_weather_current_condition"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Temperature:60, Humidity:64%">
+    </TextView> 
+    	<TextView  android:id="@+id/tab_weather_current_wind"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Wind:N at 2 mph, 2009-09-20 12:21:00 +0000">
+    </TextView> 
+    
+    <ImageView android:id="@+id/tab_weather_current_image"
+        android:src="@drawable/sunny" 
+        android:layout_gravity="center_vertical|center_horizontal" 
+        android:layout_marginBottom="8dip" android:layout_marginTop="15dip" android:layout_height="100dip" android:layout_width="100dip"/>
+        
+    <TextView  android:id="@+id/tab_weather_current_city"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="New York, NY" 
+	    android:gravity="center_vertical|center_horizontal">
+    </TextView> 
+    
+    <LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:orientation="horizontal" android:layout_marginTop="20dip">
+	   <LinearLayout  android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" 
+		    android:layout_weight="1"> 
+		    <TextView  android:id="@+id/tab_weather_d1_date"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="Mon" 
+			    android:gravity="center_horizontal">
+    		</TextView> 
+    		<ImageView android:id="@+id/tab_weather_d1_image"
+			        android:layout_marginTop="3dip" 
+			        android:layout_marginBottom="3dip" 
+			        android:src="@drawable/sunny" 
+			        android:layout_gravity="center_vertical|center_horizontal" 
+			        android:layout_height="40dip" 
+			        android:layout_width="40dip"/>
+    		<TextView  android:id="@+id/tab_weather_d1_temperature"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="15/29" 
+			    android:gravity="center_horizontal">
+    		</TextView> 
+	   </LinearLayout>
+	   <LinearLayout  android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" 
+		    android:layout_weight="1"> 
+		    <TextView  android:id="@+id/tab_weather_d2_date"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="Tue" 
+			    android:gravity="center_horizontal">
+    		</TextView> 
+    		<ImageView android:id="@+id/tab_weather_d2_image"
+			        android:layout_marginTop="3dip" 
+			        android:layout_marginBottom="3dip" 
+			        android:src="@drawable/sunny" 
+			        android:layout_gravity="center_vertical|center_horizontal" 
+			        android:layout_height="40dip" 
+			        android:layout_width="40dip"/>
+    		<TextView  android:id="@+id/tab_weather_d2_temperature"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="15/29" 
+			    android:gravity="center_horizontal">
+    		</TextView> 
+	   </LinearLayout>
+	   <LinearLayout  android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" 
+		    android:layout_weight="1">
+		    <TextView  android:id="@+id/tab_weather_d3_date"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="Wed" 
+			    android:gravity="center_horizontal">
+    		</TextView> 
+    		<ImageView android:id="@+id/tab_weather_d3_image"
+			        android:layout_marginTop="3dip" 
+			        android:layout_marginBottom="3dip" 
+			        android:src="@drawable/sunny" 
+			        android:layout_gravity="center_vertical|center_horizontal" 
+			        android:layout_height="40dip" 
+			        android:layout_width="40dip"/>
+    		<TextView  android:id="@+id/tab_weather_d3_temperature"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="15/29" 
+			    android:gravity="center_horizontal">
+    		</TextView> 
+	   </LinearLayout>
+	   <LinearLayout  android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" 
+		    android:layout_weight="1">
+			<TextView  android:id="@+id/tab_weather_d4_date"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="Thu" 
+			    android:gravity="center_horizontal">
+    		</TextView> 
+    		<ImageView android:id="@+id/tab_weather_d4_image"
+			        android:layout_marginTop="3dip" 
+			        android:layout_marginBottom="3dip" 
+			        android:src="@drawable/sunny" 
+			        android:layout_gravity="center_vertical|center_horizontal" 
+			        android:layout_height="40dip" 
+			        android:layout_width="40dip"/>
+    		<TextView  android:id="@+id/tab_weather_d4_temperature"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="15/29" 
+			    android:gravity="center_horizontal">
+    		</TextView>  
+	   </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
