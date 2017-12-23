@@ -65,10 +65,12 @@
 > 登陆模块实现:登陆功能主要使用URLConnection类的直接子类HttpURLConnection进行教务系统模拟登陆,判断登陆权限,保存Cookies,使用Jsoup网页解析
   技术获取用户信息,并使用SharedPreference进行配置信息存储。
 2. 主体功能实现
-> 成绩查询模块实现:在登陆成功之后,根据用户选择的查询筛选方式,使用HttpURLConnection类与教务系统服务器交互,获取服务器反馈后自动跳转到成绩显
++ 成绩查询模块实现:
+  > 在登陆成功之后,根据用户选择的查询筛选方式,使用HttpURLConnection类与教务系统服务器交互,获取服务器反馈后自动跳转到成绩显
   示页面,再通过Jsoup网页解析技术解析HTML网页,抽取成绩等相关信息,使用<LinearLayout<ListView>>布局进行展示。
 
-> 课表查询模块实现:通过读取SharedPreference,获取用户的班级信息,自动匹配当前学期周、单双周、检索SQLite课表数据库,使用<LinearLayout<Button>>
++ 课表查询模块实现:
+  > 通过读取SharedPreference,获取用户的班级信息,自动匹配当前学期周、单双周、检索SQLite课表数据库,使用<LinearLayout<Button>>
   进行布局,通过随机算法进行课表背景色填充,自动适应课表展示长度。同时提供全校课表按班级、按教学周检索,方便进行课表信息查询。
   空教室查询模块实现:根据前期对教学楼及教室分布的调研数据,使用<LinearLayout<ListView>>布局,构建多个Adapter进行ListView适配,通过自动教学周获
   取,检索SQLite课表数据库,填充Adapter复用convertView、更新ListView,从而高效、准确、直观地展示空教室信息。提供按教学周、按星期检索空教室功能,方
