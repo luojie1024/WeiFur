@@ -1,6 +1,6 @@
 # WeiFur
 
-[![](https://user-gold-cdn.xitu.io/2017/12/13/1604ec3c62a7de14)](https://travis-ci.org/Alamofire/Alamofire)  ![](https://img.shields.io/badge/api_level-21-green.svg)   ![](https://img.shields.io/badge/platform-android-green.svg)
+[![](https://user-gold-cdn.xitu.io/2017/12/13/1604ec3c62a7de14)](https://travis-ci.org/Alamofire/Alamofire)   ![](https://img.shields.io/badge/platform-android-green.svg)  ![](https://img.shields.io/badge/api_level-21-green.svg) 
 ![](https://img.shields.io/badge/language-java-green.svg)  ![](https://img.shields.io/badge/version-v1.0-green.svg)
 
 ## 校园助手APP
