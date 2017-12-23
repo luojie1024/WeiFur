@@ -58,47 +58,47 @@
     + 【课表查询功能】--需要手动设置班级，提供查询功能，可以按班级，按周查询课表
  
 
-登入界面
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E7%99%BB%E5%85%A5%E7%95%8C%E9%9D%A2.png?raw=true)  
+
+<h4 align = "center">【登入界面】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E7%99%BB%E5%85%A5%E7%95%8C%E9%9D%A2.png?raw=true"/></div> 
 
 
-主界面
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E4%B8%BB%E7%95%8C%E9%9D%A2.png?raw=true)  
+
+<h4 align = "center">【主界面】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E4%B8%BB%E7%95%8C%E9%9D%A2.png?raw=true"/></div> 
 
 
-空教室查询
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E7%A9%BA%E6%95%99%E5%AE%A4.png?raw=true)  
 
-课表查询
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2.png?raw=true)  
+<h4 align = "center">【空教室查询】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E7%A9%BA%E6%95%99%E5%AE%A4.png?raw=true"/></div> 
 
 
-成绩查询
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.png?raw=true)  
-
-功能介绍1
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/001.png?raw=true)  
+<h4 align = "center">【课表查询】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2.png?raw=true"/></div> 
 
 
-功能介绍2
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/002.png?raw=true)  
+
+<h4 align = "center">【成绩查询】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2.png?raw=true"/></div> 
 
 
-功能介绍3
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/003.png?raw=true)  
+<h4 align = "center">【功能介绍1】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/001.png?raw=true"/></div> 
 
-功能介绍4
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/004.png?raw=true)  
 
-功能介绍5
-=====
-![](https://github.com/luojie1024/WeiFur/blob/master/screenshots/0101.png?raw=true)  
+
+<h4 align = "center">【功能介绍2】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/002.png?raw=true"/></div> 
+
+
+
+<h4 align = "center">【功能介绍3】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/003.png?raw=true"/></div> 
+
+
+<h4 align = "center">【功能介绍4】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/004.png?raw=true"/></div> 
+
+
+<h4 align = "center">【功能介绍5】</h4> 
+<div align=center><img width="512" src="https://github.com/luojie1024/WeiFur/blob/master/screenshots/0101.png?raw=true"/></div> 
